@@ -56,6 +56,7 @@
                 {
                     second_string += B.Text;
                 }
+                
                 value = double.Parse(second_string);
                 label1.Text = first_string + "\n" + second_string;
             }
